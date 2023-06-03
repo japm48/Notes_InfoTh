@@ -134,7 +134,7 @@ The author of this document is the sole responsible for all the typos/mistakes f
 % TODO: add McEliece book !!
 
     \item Raymond W.\@ Yeung, \emph{Information Theory and Network Coding}, 1st ed., ISBN: 978-0-387-79234-7, CUHK.
-1
+
     \item
     Akshay Krishnamurthy, Aarti Singh, \emph{10-704 Lecture Notes}, Winter 2016-2017, CMU.
     \\
@@ -287,9 +287,9 @@ P\left(\left|Y_N-\mathbb{E}[X]\right|>\varepsilon\right) \le \frac{\mathbb{V}[X]
 \quad
 Y_N \xrightarrow[]{P} \mathbb{E}[X] 
 \\
-Convergence in probability:
-& \text{[TODO]}
-\\
+%Convergence in probability:
+%& \text{[TODO]}
+%\\
 Central Limit Theorem (CLT): & Y_N = \frac{1}{N}\sum_{i=1}^{N} X_i \quad (X_i \text{ i.i.d., } \mathbb{E}[X_i] = \mu,\,\mathbb{V}[X_i]=\sigma^2)
 \\&
 \frac{Y_N-\mu}{\sigma/\sqrt{N}}
@@ -307,7 +307,7 @@ Jensen's inequality: & g \text{ is convex} \implies \mathbb{E}[g(X)] \ge g(\math
 \\
 
 Log-sum inequality: & \sum_i a_i \cdot \log \frac{a_i}{b_i} \ge
-A \cdot \log \frac{A}{B}; \quad A =\sum_i a_i; \, B =\sum_i b_i; \, a_i\ge 0,\,b_i\ge 0
+A \cdot \log \frac{A}{B}; \quad A =\sum_i a_i; \, B =\sum_i b_i; \, a_i > 0,\,b_i > 0
 \\
 
 IT inequality: & \log_B (r) \le (r-1)\cdot \log_B(e); \\[-10pt]&
